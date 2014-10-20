@@ -10,5 +10,5 @@
 			result[name] = cell.nextElementSibling.textContent.trim();
 		}
 	}
-	console.log(JSON.stringify(result));
+	console.log(JSON.stringify(result, null, 1));
 })();
